@@ -24,7 +24,7 @@ function QuestionItem({ question, onDeleteItem, onAnswerChange }) {
   return (
     <li>
       <h4>Question {id}</h4>
-      <h5>Prompt: {prompt}</h5>
+      <h5>Prompt{prompt}</h5>
       <label>
         Correct Answer:
         <select defaultValue={correctIndex} onChange={handleChange} >{options}</select>
